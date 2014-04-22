@@ -7,7 +7,7 @@ P	au	#	Chapter Author
 P	au1	#	Chapter Author Level 1
 P	aubio	#	Author Biographical Data
 P	aubiof	#	Author Biographical Data First
-P	audio #
+P	audio	#
 P	bh	#	B-Head
 P	bhaft	#	B-Head after A-Head
 P	bk	#	Book Title
@@ -133,7 +133,7 @@ P	cl3s	#	Codeline Level 3 standalone
 P	clf	#	Codeline first
 P	cll	#	Codeline last
 P	cls	#	Codeline standalone
-P	cn #
+P	cn	#
 P	com	#	Commentary
 P	crt	#	Copyright
 P	crt1	#	Copyright level 1
@@ -234,7 +234,7 @@ P	in3	#	Index Level 3
 P	inf	#	Index Main Level First
 P	inh	#	Index Head
 P	inh1	#	Index Head Level 1
-P	inhn #
+P	inhn	#
 P	lo	#	Learning Objective
 P	lps	#	Letter Postscript
 P	lt	#	Letter Paragraph
@@ -251,9 +251,9 @@ P	lts	#	Letter Paragraph Stand-Alone
 P	ltsig	#	Letter Signature
 P	ltsigf	#	Letter Signature First
 P	ltsigl	#	Letter Signature Last
-P	mediah #
-P	mediacap #
-P	mediaatr #
+P	mediah	#
+P	mediacap	#
+P	mediaatr	#
 P	nl	#	Numbered List Item
 P	nl1	#	Numbered List Item Level 1 (Subpoint)
 P	nl1f	#	Numbered List Item Level 1 First (Subpoint)
@@ -343,7 +343,7 @@ P	rpch	#	Recipe C-Head
 P	rpf	#	Recipe Procedure First
 P	rpg	#	Recipe Garnish
 P	rpg1	#	Recipe Garnish Level 1
-P	rph #
+P	rph	#
 P	rph1	#	Recipe Subhead or Level 1 Head
 P	rphn	#	Recipe Head Note
 P	rpil	#	Recipe Ingredient List Item
@@ -583,7 +583,7 @@ P	uls	#	Unnumbered List Item Stand-Alone
 P	un	#	Unit Number
 P	us	#	Unit Subtitle
 P	ut	#	Unit Title
-P	video #
+P	video	#
 P	wl	#	Written Language Paragraph
 P	wl1	#	Written Language Level 1 Paragraph
 P	wl1f	#	Written Language Level 1 Paragraph First
@@ -635,7 +635,7 @@ C	ennum	#	Endnote Number
 C	enref	#	Endnote Reference
 C	fighn	#	Figure Head Number
 C	first	#	First
-C	first-i #
+C	first-i	#
 C	fnnum	#	Footnote Number
 C	fnref	#	Footnote Reference
 C	frac	#	Fraction
@@ -703,7 +703,7 @@ C	lang	#	Language
 C	lang-b	#	Language Bold
 C	lang-bi	#	Language Bold-Italic
 C	lang-i	#	Language Italic
-C	med #
+C	med	#
 Ce	ob	#	Oblique
 Ce	osf	#	Old-Style Figures
 Ce	osf-b	#	Old-Style Figures Bold
