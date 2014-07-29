@@ -69,6 +69,7 @@ P	bx1nl	#	Box Level 1 Numbered List Item
 P	bx1nlf	#	Box Level 1 Numbered List Item First
 P	bx1nll	#	Box Level 1 Numbered List Item Last
 P	bx1nlp	#	Box Level 1 Numbered List Item Paragraph
+P	bx1s	#	Box Level 1 Paragraph Stand-Alone
 P	bx1sl	#	Box Level 1 Senseline
 P	bx1slf	#	Box Level 1 Senseline First
 P	bx1sll	#	Box Level 1 Senseline Last
@@ -133,7 +134,7 @@ P	cl3s	#	Codeline Level 3 standalone
 P	clf	#	Codeline first
 P	cll	#	Codeline last
 P	cls	#	Codeline standalone
-P	cn	#
+P	cn	#	Chapter Number
 P	com	#	Commentary
 P	crt	#	Copyright
 P	crt1	#	Copyright level 1
@@ -234,7 +235,7 @@ P	in3	#	Index Level 3
 P	inf	#	Index Main Level First
 P	inh	#	Index Head
 P	inh1	#	Index Head Level 1
-P	inhn	#
+P	inhn	#	Index Headnote
 P	lo	#	Learning Objective
 P	lps	#	Letter Postscript
 P	lt	#	Letter Paragraph
