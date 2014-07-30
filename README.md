@@ -1,2 +1,4 @@
-scr-scml-word-templates
+ScML Word Template
 =======================
+
+Use this Word template when working with ScML and the WFDW.
