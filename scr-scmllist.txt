@@ -7,7 +7,7 @@ P	au	#	Chapter Author
 P	au1	#	Chapter Author Level 1
 P	aubio	#	Author Biographical Data
 P	aubiof	#	Author Biographical Data First
-P	audio	#	Audio
+Pe	audio	#	Audio
 P	bh	#	B-Head
 P	bhaft	#	B-Head after A-Head
 P	bk	#	Book Title
@@ -255,9 +255,9 @@ P	ltsig	#	Letter Signature
 P	ltsigf	#	Letter Signature First
 P	ltsigl	#	Letter Signature Last
 P	ltsigs	#	Letter Signature Standalone
-P	mediaatr	#	Media Attribution
-P	mediacap	#	Media Caption
-P	mediah	#	Media Head
+Pe	mediaatr	#	Media Attribution
+Pe	mediacap	#	Media Caption
+Pe	mediah	#	Media Head
 P	nl	#	Numbered List Item
 P	nl1	#	Numbered List Item Level 1 (Subpoint)
 P	nl1f	#	Numbered List Item Level 1 First (Subpoint)
@@ -613,7 +613,7 @@ P	uls	#	Unnumbered List Item Stand-Alone
 P	un	#	Unit Number
 P	us	#	Unit Subtitle
 P	ut	#	Unit Title
-P	video	#	Video
+Pe	video	#	Video
 P	wl	#	Written Language Paragraph
 P	wl1	#	Written Language Level 1 Paragraph
 P	wl1f	#	Written Language Level 1 Paragraph First
@@ -692,12 +692,12 @@ C	heb-bi	#	Hebrew Bold-Italic
 C	heb-i	#	Hebrew Italic
 C	heb-u	#	Hebrew Underline
 C	hemb	#	Embedded Head
-C	hl	#	Highlight
-C	hl-b	#	Highlight Bold
-C	hl-bi	#	Highlight Bold Italic
-C	hl-i	#	Highlight Italic
-C	hl-iu	#	Highlight Bold Italic Underline
-C	hl-u	#	Highlight Bold Underline
+Ce	hl	#	Highlight
+Ce	hl-b	#	Highlight Bold
+Ce	hl-bi	#	Highlight Bold Italic
+Ce	hl-i	#	Highlight Italic
+Ce	hl-iu	#	Highlight Bold Italic Underline
+Ce	hl-u	#	Highlight Bold Underline
 C	hn	#	Head Number
 C	i	#	Italic
 C	idx	#	Index
@@ -707,7 +707,7 @@ C	lang	#	Language
 C	lang-b	#	Language Bold
 C	lang-bi	#	Language Bold-Italic
 C	lang-i	#	Language Italic
-C	med	#	Media
+Ce	med	#	Media
 Ce	ob	#	Oblique
 Ce	osf	#	Old-Style Figures
 Ce	osf-b	#	Old-Style Figures Bold
@@ -719,12 +719,12 @@ Ce	rc	#	Embedded Rubric
 C	red	#	Red Letter Text
 C	red-b	#	Red Letter Text Bold
 C	red-bi	#	Red Bold Italic
-C	red-hl	#	Red Highlight
-C	red-hl-b	#	Red Highlight Bold
-C	red-hl-bi	#	Red Highlight Bold Italic
-C	red-hl-i	#	Red Highlight Italic
-C	red-hl-iu	#	Red Highlight Italic Underline
-C	red-hl-u	#	Red Highlight Underline
+Ce	red-hl	#	Red Highlight
+Ce	red-hl-b	#	Red Highlight Bold
+Ce	red-hl-bi	#	Red Highlight Bold Italic
+Ce	red-hl-i	#	Red Highlight Italic
+Ce	red-hl-iu	#	Red Highlight Italic Underline
+Ce	red-hl-u	#	Red Highlight Underline
 C	red-i	#	Red Letter Text Italic
 C	red-iu	#	Red Italic Underline
 Ce	red-ob	#	Red Oblique
