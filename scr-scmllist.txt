@@ -7,7 +7,7 @@ P	au	#	Chapter Author
 P	au1	#	Chapter Author Level 1
 P	aubio	#	Author Biographical Data
 P	aubiof	#	Author Biographical Data First
-P	audio	#
+Pe	audio	#	Audio
 P	bh	#	B-Head
 P	bhaft	#	B-Head after A-Head
 P	bk	#	Book Title
@@ -136,6 +136,7 @@ P	cll	#	Codeline last
 P	cls	#	Codeline standalone
 P	cn	#	Chapter Number
 P	com	#	Commentary
+P	comp	#	Commentary New Paragraph
 P	crt	#	Copyright
 P	crt1	#	Copyright level 1
 P	crt1f	#	Copyright level 1 first
@@ -228,6 +229,7 @@ P	glo	#	Glossary Definition
 P	glof	#	Glossary Definition First
 P	hb	#	Hiatus Break
 P	hd	#	Head
+P	hdn	#	Headnote
 P	in	#	Index Main Level
 P	in1	#	Index Level 1
 P	in2	#	Index Level 2
@@ -252,9 +254,10 @@ P	lts	#	Letter Paragraph Stand-Alone
 P	ltsig	#	Letter Signature
 P	ltsigf	#	Letter Signature First
 P	ltsigl	#	Letter Signature Last
-P	mediah	#
-P	mediacap	#
-P	mediaatr	#
+P	ltsigs	#	Letter Signature Standalone
+Pe	mediaatr	#	Media Attribution
+Pe	mediacap	#	Media Caption
+Pe	mediah	#	Media Head
 P	nl	#	Numbered List Item
 P	nl1	#	Numbered List Item Level 1 (Subpoint)
 P	nl1f	#	Numbered List Item Level 1 First (Subpoint)
@@ -295,15 +298,30 @@ P	ntbqs	#	Note Block Quote Stand-Alone
 P	ntcon	#	Note Continued
 P	nteq	#	Note Equation
 P	ntnl	#	Note Numbered List
+P	ntnl1	#	Note Numbered List Level 1
+P	ntnl1f	#	Note Numbered List Level 1 First
+P	ntnl1l	#	Note Numbered List Level 1 Last
+P	ntnl1s	#	Note Numbered List Level 1 Standalone
 P	ntnlf	#	Note Numbered List First
+P	ntnls	#	Note Numbered List Standalone
 P	ntnll	#	Note Numbered List Last
 P	ntsl	#	Note Senseline
+P	ntsl1	#	Note Senseline Level 1
+P	ntsl1f	#	Note Senseline Level 1 First
+P	ntsl1l	#	Note Senseline Level 1 Last
+P	ntsl1s	#	Note Senseline Level 1 Stand-Alone
 P	ntslf	#	Note Senseline First
 P	ntsll	#	Note Senseline Last
+P	ntsls	#	Note Senseline Standalone
 P	nttd	#	Note Table
 P	ntul	#	Note Unnumbered List
+P	ntul1	#	Note Unnumbered List Level 1
+P	ntul1f	#	Note Unnumbered List Level 1 First
+P	ntul1l	#	Note Unnumbered List Level 1 Last
+P	ntul1s	#	Note Unnumbered List Level 1 Standalone
 P	ntulf	#	Note Unnumbered List First
 P	ntull	#	Note Unnumbered List Last
+P	ntuls	#	Note Unnumbered List Last
 P	opt	#	Optional Rubric
 P	p	#	Paragraph
 P	paft	#	Paragraph after Head (or sec)
@@ -333,6 +351,7 @@ P	rbi	#	Rubric Instruction
 P	rf	#	Reference/Bibliography
 P	rf1	#	Reference/Bibliography Level 1
 P	rf2	#	Reference/Bibliography Level 2
+P	rff	#	Reference First
 P	rp	#	Recipe Procedure
 P	rp1	#	Recipe Procedure Level 1
 P	rp1f	#	Recipe Procedure Level 1 First
@@ -344,7 +363,7 @@ P	rpch	#	Recipe C-Head
 P	rpf	#	Recipe Procedure First
 P	rpg	#	Recipe Garnish
 P	rpg1	#	Recipe Garnish Level 1
-P	rph	#
+P	rph	#	Recipe Head
 P	rph1	#	Recipe Subhead or Level 1 Head
 P	rphn	#	Recipe Head Note
 P	rpil	#	Recipe Ingredient List Item
@@ -386,6 +405,14 @@ P	sbah	#	Sidebar A-Head
 P	sbahaft	#	Sidebar A-Head after Title
 P	sbbh	#	Sidebar B-Head
 P	sbbhaft	#	Sidebar B-Head after A-Head
+P	sbbl	#	Sidebar Bulleted List Item
+P	sbbl1	#	Sidebar Bulleted List Item Level 1
+P	sbbl1f	#	Sidebar Bulleted List Item Level 1 First
+P	sbbl1l	#	Sidebar Bulleted List Item Level 1 Last
+P	sbbl1s	#	Sidebar Bulleted List Item Level 1 Stand-Alone
+P	sbblf	#	Sidebar Bulleted List Item First
+P	sbbll	#	Sidebar Bulleted List Item Last
+P	sbbls	#	Sidebar Bulleted List Item Stand-Alone
 P	sbbq	#	Sidebar Block Quote
 P	sbbqaft	#	Sidebar Block Quote after Head
 P	sbbqf	#	Sidebar Block Quote First
@@ -511,11 +538,13 @@ P	sll	#	Senseline Last
 P	sls	#	Senseline Stand-Alone
 P	slt	#	Senseline Tail
 P	st	#	Story Paragraph
+P	staft	#	Story After Head
 P	stf	#	Story Paragraph First
 P	sth	#	Story Head
 P	sth1	#	Story Head Level 1
 P	sth2	#	Story Head Level 2
 P	stl	#	Story Paragraph Last
+P	sto	#	Story Only
 P	structure	#	Structure
 P	sts	#	Story Paragraph Stand-Alone
 P	tatr	#	Table Credit/Attribution
@@ -540,10 +569,10 @@ P	toc4	#	TOC Level 4
 P	toc5	#	TOC Level 5
 P	tocau	#	TOC Author
 P	tocbm	#	TOC Back Matter
-Pe	tocbmf	#	TOC Back Matter First
-Pe	tocf	#	TOC Main Level First
+P	tocbmf	#	TOC Back Matter First
+P	tocf	#	TOC Main Level First
 P	tocfm	#	TOC Front Matter
-Pe	tocfmf	#	TOC Front Matter First
+P	tocfmf	#	TOC Front Matter First
 P	tocpt	#	TOC Part Title
 P	tocut	#	TOC Unit Title
 Pe	tsecbot	#	Temporary Bottom-of-Page Section Break
@@ -584,7 +613,7 @@ P	uls	#	Unnumbered List Item Stand-Alone
 P	un	#	Unit Number
 P	us	#	Unit Subtitle
 P	ut	#	Unit Title
-P	video	#
+Pe	video	#	Video
 P	wl	#	Written Language Paragraph
 P	wl1	#	Written Language Level 1 Paragraph
 P	wl1f	#	Written Language Level 1 Paragraph First
@@ -614,6 +643,8 @@ C	abbr	#	Abbreviation
 C	ac	#	All Caps
 C	b	#	Bold
 C	bi	#	Bold-Italic
+C	bu	#	Bold Underline
+C	bxhn	#	Box Head Number
 C	ccust1	#	Character Custom 1
 C	ccust2	#	Character Custom 2
 C	ccust3	#	Character Custom 3
@@ -634,9 +665,10 @@ Ce	dropcap	#	Drop Cap
 Ce	dropcap-i	#	Drop Cap Italic
 C	ennum	#	Endnote Number
 C	enref	#	Endnote Reference
+C	exhn	#	Exercise Head Number
 C	fighn	#	Figure Head Number
 C	first	#	First
-C	first-i	#
+C	first-i	#	First Italic
 C	fnnum	#	Footnote Number
 C	fnref	#	Footnote Reference
 C	frac	#	Fraction
@@ -652,59 +684,30 @@ C	gt	#	Glossary Term
 C	gt-i	#	Glossary Term Italic
 Ce	gt-sm	#	Glossary Term Small-Caps
 C	gtref	#	Glossary Reference
+C	gtref-i	#	Glossary Reference Italic
+Ce	gtref-sm	#	Glossary Reference Small-Caps
 C	heb	#	Hebrew
 C	heb-b	#	Hebrew Bold
 C	heb-bi	#	Hebrew Bold-Italic
 C	heb-i	#	Hebrew Italic
 C	heb-u	#	Hebrew Underline
 C	hemb	#	Embedded Head
-C	gtref-i	#	Glossary Reference Italic
-Ce	gtref-sm	#	Glossary Reference Small-Caps
+Ce	hl	#	Highlight
+Ce	hl-b	#	Highlight Bold
+Ce	hl-bi	#	Highlight Bold Italic
+Ce	hl-i	#	Highlight Italic
+Ce	hl-iu	#	Highlight Bold Italic Underline
+Ce	hl-u	#	Highlight Bold Underline
+C	hn	#	Head Number
 C	i	#	Italic
 C	idx	#	Index
 C	img	#	Image
 C	iu	#	Italic Underline
-C	l-chi	#	Chinese
-C	l-chi-b	#	Chinese Bold
-C	l-chi-bi	#	Chinese Bold-Italic
-C	l-chi-i	#	Chinese Italic
-C	l-fre	#	French
-C	l-fre-b	#	French Bold
-C	l-fre-bi	#	French Bold-Italic
-C	l-fre-i	#	French Italic
-C	l-ger	#	German
-C	l-ger-b	#	German Bold
-C	l-ger-bi	#	German Bold-Italic
-C	l-ger-i	#	German Italic
-C	l-ita	#	Italian
-C	l-ita-b	#	Italian Bold
-C	l-ita-bi	#	Italian Bold-Italic
-C	l-ita-i	#	Italian Italic
-C	l-jpn	#	Japanese
-C	l-jpn-b	#	Japanese Bold
-C	l-jpn-bi	#	Japanese Bold-Italic
-C	l-jpn-i	#	Japanese Italic
-C	l-kor	#	Korean
-C	l-kor-b	#	Korean Bold
-C	l-kor-bi	#	Korean Bold-Italic
-C	l-kor-i	#	Korean Italic
-C	l-lat	#	Latin
-C	l-lat-b	#	Latin Bold
-C	l-lat-bi	#	Latin Bold-Italic
-C	l-lat-i	#	Latin Italic
-C	l-rus	#	Russian
-C	l-rus-b	#	Russian Bold
-C	l-rus-bi	#	Russian Bold-Italic
-C	l-rus-i	#	Russian Italic
-C	l-spa	#	Spanish
-C	l-spa-b	#	Spanish Bold
-C	l-spa-bi	#	Spanish Bold-Italic
-C	l-spa-i	#	Spanish Italic
 C	lang	#	Language
 C	lang-b	#	Language Bold
 C	lang-bi	#	Language Bold-Italic
 C	lang-i	#	Language Italic
-C	med	#
+Ce	med	#	Media
 Ce	ob	#	Oblique
 Ce	osf	#	Old-Style Figures
 Ce	osf-b	#	Old-Style Figures Bold
@@ -715,11 +718,27 @@ C	pnum	#	Paragraph Number
 Ce	rc	#	Embedded Rubric
 C	red	#	Red Letter Text
 C	red-b	#	Red Letter Text Bold
+C	red-bi	#	Red Bold Italic
+Ce	red-hl	#	Red Highlight
+Ce	red-hl-b	#	Red Highlight Bold
+Ce	red-hl-bi	#	Red Highlight Bold Italic
+Ce	red-hl-i	#	Red Highlight Italic
+Ce	red-hl-iu	#	Red Highlight Italic Underline
+Ce	red-hl-u	#	Red Highlight Underline
 C	red-i	#	Red Letter Text Italic
+C	red-iu	#	Red Italic Underline
 Ce	red-ob	#	Red Oblique
 Ce	red-sm	#	Red Small-caps
 Ce	red-sm-i	#	Red Small-caps Italic
 Ce	red-sm-ob	#	Red Small-caps Oblique
+C	red-strk	#	Red Strikethrough
+C	red-strk-b	#	Red Strikethrough Bold
+C	red-strk-bi	#	Red Strikethrough Bold Italic
+C	red-strk-i	#	Red Strikethrough Italic
+C	red-strk-iu	#	Red Strikethrough Italic Underline
+C	red-strk-u	#	Red Strikethrough Underline
+C	red-u	#	Red Underline
+C	sbhn	#	Sidebar Head Number
 C	sm	#	Small Caps
 C	sm-b	#	Small Caps Bold
 C	sm-bi	#	Small Caps Bold-Italic
@@ -729,6 +748,9 @@ Ce	smver	#	Small Caps Verse
 Ce	speaker	#	Speaker
 Ce	speaker-i	#	Speaker Italic
 C	strk	#	Strikethrough
+C	strk-b	#	Strikethrough Bold
+C	strk-bi	#	Strikethrough Bold Italic
+C	strk-i	#	Strikethrough Italic
 C	sub	#	Subscript
 C	sub-b	#	Subscript Bold
 C	sub-bi	#	Subscript Bold-Italic
@@ -760,6 +782,7 @@ C	taxspecies	#	Taxonomy Species
 C	tel	#	Telephone Number
 C	tetr	#	Tetragrammaton
 C	tetr-b	#	Tetragrammaton Bold
+C	tetr-bi	#	Tetragrammaton Bold-Italic
 C	tetr-i	#	Tetragrammaton Italic
 Ce	tetr-ob	#	Tetragrammaton Oblique
 Ce	tetr-red	#	Tetragrammaton Red
@@ -778,7 +801,11 @@ C	trh	#	Table Row Head
 C	trh-i	#	Table Row Head Italic
 C	u	#	Underline
 C	url	#	URL
+C	url-b	#	Url Bold
+C	url-bi	#	Url Bold-italic
+C	url-i	#	Url Italic
 C	ver	#	Verse
+C	ver-b	#	Verse Bold
 C	xbk	#	External Reference
 Ce	xbr	#	Bible Reference
 C	xref	#	Cross-Reference
